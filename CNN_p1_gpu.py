@@ -11,10 +11,10 @@ from keras.models import Model
 from keras.layers import Dense, GlobalMaxPooling2D
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import SGD
-from imagenet_utils import decode_predictions
-from imagenet_utils import preprocess_input
+#from imagenet_utils import decode_predictions
+#from imagenet_utils import preprocess_input
 
-from tqdm import tqdm
+#from tqdm import tqdm
 import glob
 import matplotlib.pyplot as plt
 
